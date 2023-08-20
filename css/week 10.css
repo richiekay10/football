@@ -1,0 +1,440 @@
+* {
+box-sizing: border-box;
+}
+
+
+* body {
+height: 10000px;
+} 
+
+
+.header {
+background: #F6D9CC;
+z-index: 100;
+}
+
+
+.navbar {
+margin: 1.5em 0em 1em 0em;
+padding: 0 5em;
+background-color: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+-webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+}
+
+
+.nav-logo {
+font-size: 2rem;
+}
+
+
+.navbar-middle {
+margin-left: 20em;
+}
+
+
+.header-button {
+background: #E9EFFC;
+height: 28px;
+}
+
+
+
+.item-title {
+font-family: "VC Garamond Condensed";
+font-size: 6rem;
+}
+
+
+.shop-now-button {
+background: blue;
+padding: .6em 1.8em;
+}
+
+
+.company-endoresement-section {
+background: #F2F2F2;
+margin: 3em 4em 0 4em;
+border-radius: 2em;
+padding: 8em 0;
+
+
+}
+
+
+.company-endorsement-text {
+font-family: "VC Garamond Condensed";
+font-size: 2.5rem;
+}
+
+
+.brand-logo {
+max-width: 10%;
+height: auto;
+cursor: pointer;
+}
+
+
+.opacity-img {
+opacity: .3;
+transition: .5s ease;
+}
+
+
+.opacity-img:hover {
+opacity: 1;
+}
+
+
+.explore-section {
+margin: 3em 4em 0 4em;
+}
+
+
+.explore-text {
+font-size: 2rem;
+padding: 3em 0 .5em;
+}
+
+
+.shop-now-text {
+text-decoration: underline;
+font-size: 1.2rem;
+}
+
+
+.product-feature {
+/* margin-left: 4em; */
+}
+
+
+.product-display {
+border-radius: 2em;
+display: block;
+}
+
+
+.main-img-div {
+position: relative;
+/* margin: 2em 0 0 4em; */
+}
+
+
+.img-top-text {
+position: absolute;
+top: 3%;
+left: 3%;
+padding: .2em .6em;
+background: #fff;
+}
+
+
+.img-bottom-text {
+position: absolute;
+top: 82%;
+left: 3%;
+}
+
+
+.amount {
+margin-left: 16em;
+}
+
+
+.hover-img {
+position: absolute;
+bottom: 0;
+left: 0;
+/* right: 0; */
+width: 0;
+height: 100%;
+transition: .5s ease;
+}
+
+
+.img-hover {
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 2em;
+display: block;
+}
+
+
+.main-img-div:hover .hover-img {
+width: 100%;
+height: 100%;
+}
+
+
+.testimonial-row {
+margin: 3em 4em;
+}
+
+
+.testimonial-img {
+max-width: 50%;
+height: auto;
+}
+
+
+.testimonial-heading {
+font-family: "VC Garamond Condensed";
+padding-top: 4rem;
+}
+.testimonial-text-main {
+padding-right: 5em;
+}
+
+
+.testimonial-text {
+font-family: "VC Garamond Condensed";
+font-size: 2rem;
+}
+
+
+.testimonial-main-div {
+background: #F2F2F2;
+border-radius: 2em;
+/* margin: 8em 5em 0; */
+}
+
+
+.side-img-div {
+height: 100%;
+position: relative;
+}
+
+
+.testimonial-side-img {
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 2em;
+}
+
+
+.side-img-text {
+position: absolute;
+top: 90%;
+left: 3%;
+}
+
+
+.testimonial-shop-now-button {
+margin-left: 12em;
+background: #C1F651;
+border-color: #C1F651;
+padding: .6em 1.8em;
+color: #365200;
+}
+
+
+.new-model-div {
+background: black;
+padding: 5em 0;
+}
+
+
+.new-model-head-text {
+padding: .1em .3em;
+background: #fff;
+}
+
+
+.new-model-heading {
+font-family: "VC Garamond Condensed";
+}
+
+
+.explore-display-main {
+position: relative;
+}
+
+
+.explore-hover-img {
+position: absolute;
+bottom: 0;
+left: 0;
+/* right: 0; */
+width: 0;
+height: 100%;
+transition: .5s ease;
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 2em;
+}
+
+
+.explore-display-main:hover .explore-hover-img {
+width: 100%;
+/* height: 100%; */
+}
+
+
+.explore-display-amount {
+margin-left: 16em;
+}
+
+
+.explore-display-img {
+border-radius: 2em;
+}
+
+
+.explore-display-text {
+position: absolute;
+top: 85%;
+left: 3%;
+}
+
+
+.explore-display-text-big {
+position: absolute;
+top: 92%;
+left: 3%;
+z-index: 100;
+}
+
+
+.testimonial-shop-now-button-big {
+margin-left: 38em;
+background: #C1F651;
+border-color: #C1F651;
+padding: .6em 1.8em;
+color: #365200;
+z-index: 100;
+}
+
+
+.explore-display-main-big {
+position: relative;
+}
+
+
+.explore-display-main-big:hover .explore-display-text-big {
+color: #fff;
+}
+
+
+.explore-display-main-big:hover .explore-display-text-big-clove {
+color: #fff;
+}
+
+
+.explore-display-main-big:hover .explore-hover-img{
+width: 100%;
+}
+
+
+.explore-display-text-big-clove {
+color: #878787;
+}
+
+
+.middle-div {
+background: skyblue;
+}
+
+
+.learn-more {
+font-size: 3rem;
+font-family: "VC Garamond Condensed";
+}
+
+
+.first {
+border-top-left-radius: 2em;
+border-bottom-left-radius: 2em;
+}
+
+
+.last {
+border-top-right-radius: 2em;
+border-bottom-right-radius: 2em;
+}
+
+
+.social-media-images {
+max-width: 100%;
+height: auto;
+border-radius: 1em;
+}
+
+
+input[type="email"] {
+padding: .5em;
+border: 0;
+border: 1px solid #fff;
+background: purple;
+}
+
+
+::placeholder {
+font-size: 1.2rem;
+text-align: center;
+color: white;
+}
+
+
+.subscribe-input {
+color: white;
+}
+
+
+.footer-main {
+background: black;
+}
+
+
+.logo-text {
+font-size: 3rem;
+}
+
+
+.footer-section-parts {
+padding: 0 3.6em;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    z-index: 1;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
